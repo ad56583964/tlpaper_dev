@@ -5,5 +5,11 @@
 			"path": ".."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"typescript.tsdk": "./node_modules/typescript/lib",
+		"typescript.autoClosingTags": true,
+		"typescript.disableAutomaticTypeAcquisition": false,
+		"typescript.enablePromptUseWorkspaceTsdk": true,
+		"js/ts.implicitProjectConfig.target": "ES2020"
+	}
 }
